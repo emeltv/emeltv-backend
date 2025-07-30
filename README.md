@@ -51,5 +51,3 @@ Example Response
   "stream_url": "https://cdn.emeltv.ba/stream/live.m3u8"
 }
 ```
-
-Check out the official frontend app repository (for LG WebOs): [EmelTV webOS App](https://github.com/ensarhamzic/emeltv-webos)
