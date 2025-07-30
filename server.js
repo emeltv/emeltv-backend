@@ -97,9 +97,9 @@ app.get("/stream-url", async (req, res) => {
       });
     }
 
-    const { stream_url } = await streamResponse.json();
-    console.log(`🎬 Stream URL fetched for ${deviceType}`);
-    res.json({ stream_url });
+    const responseData = await streamResponse.json();
+    console.log(`🎬 Stream data fetched for ${deviceType}`);
+    res.json(responseData);
   } catch (err) {
     console.error("❌ Error in /stream-url:", err);
     res.status(500).json({ error: "Internal Server Error" });
