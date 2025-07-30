@@ -1,8 +1,8 @@
 # EmelTV Backend
 
-This is the companion backend service for the [EmelTV webOS application](https://github.com/ensarhamzic/emeltv-webos), built with Node.js and Express.
+This is the companion backend service for the EmelTV frontend applications, built with Node.js and Express.
 
-It acts as a secure proxy between the frontend client and the EmelTV streaming API, handling authentication and protected stream URL fetching for live TV playback.
+It serves as a secure intermediary between the frontend clients and the EmelTV streaming API, managing authentication and fetching protected stream URLs for live TV playback.
 
 ## Features
 
