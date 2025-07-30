@@ -48,6 +48,7 @@ Example Response
 
 ```json
 {
-  "stream_url": "https://cdn.emeltv.ba/stream/live.m3u8"
+  "stream_url": "https://cdn.emeltv.ba/stream/live.m3u8",
+  "expires_at": "2025-07-31T03:25:18.484159755+02:00"
 }
 ```
